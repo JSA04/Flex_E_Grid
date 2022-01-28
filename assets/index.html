@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HZC | Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <button class="cabecalho_menu" aria-label="Menu"><i></i></button>
+        <img src="img/logo.svg" alt="Logotipo da HZC" class="cabecalho_logo">
+        <button class="cabecalho_notificacao" aria-label="Notificação"><i></i></button>
+    </header>
+    <nav class="menu_lateral">
+        <img src="img/logo.svg" alt="Logo da HZC">
+        <a href="#" class="menu_lateral_links lateral_inicio">Início</a>
+        <a href="#" class="menu_lateral_links lateral_videos">Vídeos</a>
+        <a href="#" class="menu_lateral_links lateral_picos">Picos</a>
+        <a href="#" class="menu_lateral_links lateral_integrantes">Integrantes</a>
+        <a href="#" class="menu_lateral_links lateral_camisas">Camisas</a>
+        <a href="#" class="menu_lateral_links lateral_pinturas">Pinturas</a>
+    </nav>
+    <main class="principal">
+        <h2 class="titulo_pagina">Inicio</h2>
+        <article>
+            <article class="cartao">
+                <img src="img/banner-mobile_1.png" alt="Banner do Cartão" class="cartao_imagem">
+                <div class="cartao_conteudo">
+                    <p class="cartao_destaque">Video em destaque</p>
+                    <h3 class="cartao_titulo">HZC - Titulo</h3>
+                    <p class="cartao_perfil">Bruno Lopez</p>
+                    <p class="cartao_info cartao_info_tempo">33 minutos</p>
+                    <p class="cartao_info cartao_info_visualizacao">33 vizualizações</p>
+                    <button class="cartao_botao cartao_botao_play cartao_botao_destaque">Assistir agora</button>
+                </div>
+            </article>
+        </article>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
